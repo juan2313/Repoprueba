@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
 
@@ -16,7 +16,7 @@
     <link rel="shortcut icon" href="./assets/img/Icon.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/1c8f596539.js" crossorigin="anonymous"></script>
 
-    <title>Document</title>
+    <title>Mujer ||| Jc Store</title>
 </head>
 
 <body>
@@ -32,10 +32,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                            <a class="nav-link active" aria-current="page" href="../../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -43,8 +43,8 @@
                                 Catalogo
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Hombre</a></li>
-                                <li><a class="dropdown-item" href="#">Mujer</a></li>
+                                <li><a class="dropdown-item" href="./hombre.html">Hombre</a></li>
+                                <li><a class="dropdown-item" href="./mujer.html">Mujer</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
@@ -66,37 +66,166 @@
     </header>
 
     <main>
+        <main class="shop">
+            <article class="containersho">
 
-    </main>
+                <section class="cards">
+                    <a href="#"><img id="img1" src="../img/store/200-1.jpg" alt="Camiseta1" /></a>
+                    <h5>Camiseta</h5>
+                    <div>
+                        <h6>$49.000</h6>
+                    </div>
+                </section>
 
-    <footer class="pie-pagina">
-        <div class="group-1">
-            <div class="box">
-                <figure>
-                    <a href="#">
-                        <img src="../img/intento.png" alt="logojc">
-                    </a>
-                </figure>
-            </div>
-            <div class="box">
-                <h2>SOBRE NOSOTROS</h2>
-                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, veritatis!</P>
-            </div>
-            <div class="box">
-                <h2>SIGUENOS</h2>
-                <div class="red-social">
-                    <a href="#" class="fa fa-facebook" ></a>
-                    <a href="#" class="fa fa-twitter" ></a>
-                    <a href="#" class="fa fa-instagram" ></a>
-                    <a href="#" class="fa fa-youtube" ></a>
+                <script>
+                    document.getElementById("img1").addEventListener("mouseover", changeimage);
+                    document.getElementById("img1").addEventListener("mouseleave", changeimage2);
+
+                    function changeimage() {
+                        var image = document.getElementById("img1").src = "../img/store/200-2.jpg";
+                    }
+
+                    function changeimage2() {
+                        var image = document.getElementById("img1").src = "../img/store/200-1.jpg";
+                    }
+                </script>
+
+                <section class="cards">
+                    <a href="#"><img id="img2" src="../img/store/201-1.jpg" alt="Camiseta2" /></a>
+                        <h5>Chaqueta</h5>
+                    <div>
+                        <h6>$159.000</h6>
+                    </div>
+                </section>
+
+                <script>
+                    document.getElementById("img2").addEventListener("mouseover", changeimage);
+                    document.getElementById("img2").addEventListener("mouseleave", changeimage2);
+
+                    function changeimage() {
+                        var image = document.getElementById("img2").src = "../img/store/201-2.jpg";
+                    }
+
+                    function changeimage2() {
+                        var image = document.getElementById("img2").src = "../img/store/201-1.jpg";
+                    }
+                </script>
+
+                <section class="cards">
+                    <a href="#"><img id="img3" src="../img/store/203-1.jpg" alt="Camiseta1" /></a>
+                        <h5>Jean</h5>
+                    <div>
+                        <h6>$113.000</h6>
+                    </div>
+                </section>
+
+                <script>
+                    document.getElementById("img3").addEventListener("mouseover", changeimage);
+                    document.getElementById("img3").addEventListener("mouseleave", changeimage2);
+
+                    function changeimage() {
+                        var image = document.getElementById("img3").src = "../img/store/202-2.jpg";
+                    }
+
+                    function changeimage2() {
+                        var image = document.getElementById("img3").src = "../img/store/203-1.jpg";
+                    }
+                </script>
+
+                <section class="cards">
+                    <a href="#"><img id="img4" src="../img/store/204-1.jpg" alt="Camiseta1" /></a>
+                    <h5>Camiseta</h5>
+                    <div>
+                        <h6>$19.000</h6>
+                    </div>
+                </section>
+
+                <script>
+                    document.getElementById("img4").addEventListener("mouseover", changeimage);
+                    document.getElementById("img4").addEventListener("mouseleave", changeimage2);
+
+                    function changeimage() {
+                        var image = document.getElementById("img4").src = "../img/store/204-2.jpg";
+                    }
+
+                    function changeimage2() {
+                        var image = document.getElementById("img4").src = "../img/store/204-1.jpg";
+                    }
+                </script>
+
+                <section class="cards">
+                    <a href="#"><img id="img5" src="../img/store/205-1.jpg" alt="Camiseta1" /></a>
+                    <h5>Buzo</h5>
+                    <div>
+                        <h6>$99.000</h6>
+                    </div>
+                </section>
+
+                <script>
+                    document.getElementById("img5").addEventListener("mouseover", changeimage);
+                    document.getElementById("img5").addEventListener("mouseleave", changeimage2);
+
+                    function changeimage() {
+                        var image = document.getElementById("img5").src = "../img/store/205-2.jpg";
+                    }
+
+                    function changeimage2() {
+                        var image = document.getElementById("img5").src = "../img/store/205-1.jpg";
+                    }
+                </script>
+
+                <section class="cards">
+                    <a href="#"><img id="img6" src="../img/store/206-1.jpg" alt="Camiseta1" /></a>
+                    <h5>Top</h5>
+                    <div>
+                        <h6>$39.000</h6>
+                    </div>
+                </section>
+
+                <script>
+                    document.getElementById("img6").addEventListener("mouseover", changeimage);
+                    document.getElementById("img6").addEventListener("mouseleave", changeimage2);
+
+                    function changeimage() {
+                        var image = document.getElementById("img6").src = "../img/store/206-2.jpg";
+                    }
+
+                    function changeimage2() {
+                        var image = document.getElementById("img6").src = "../img/store/206-1.jpg";
+                    }
+                </script>
+
+            </article>
+        </main>
+
+        <footer class="pie-pagina">
+            <div class="group-1">
+                <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img src="../img/intento.png" alt="logojc">
+                        </a>
+                    </figure>
+                </div>
+                <div class="box">
+                    <h2>SOBRE NOSOTROS</h2>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, veritatis!</P>
+                </div>
+                <div class="box">
+                    <h2>SIGUENOS</h2>
+                    <div class="red-social">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="group-2">
-            <small>&copy; 2023 <b>JCP</b> - Todos Los Derechos Reservados.</small>
-        </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+            <div class="group-2">
+                <small>&copy; 2023 <b>JCP</b> - Todos Los Derechos Reservados.</small>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
