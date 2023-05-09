@@ -1,0 +1,327 @@
+.header1{
+    background: url(./assets/img/background3.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.header1 .navbar{
+    background-color: transparent !important;
+}
+
+.navbar :hover{
+    background-color: #fff;
+}
+
+
+
+/* Botones Hombre Mujer */
+
+.Nomevadar{
+    display: flex;
+    justify-content: center;
+}
+
+.btn1{
+    display: inline-block;
+    background-color: transparent;
+    font-size: 18px;
+    padding: 20px 90px;
+    color: #fff;
+    text-align: center;
+    margin-right: 5px;
+    margin-top: 10rem;
+    text-decoration: none;
+    border: 3px solid white;
+}
+
+.btn2{
+    display: inline-block;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 18px;
+    padding: 20px 90px;
+    color: #fff;
+    text-align: center;
+    border: 3px solid white;
+}
+
+.btn1 .btn2:hover{
+    border: none;
+    color: aquamarine;
+}
+
+@media(max-width:800px) {
+    .btn1{
+        display: flex;
+        justify-content: center;
+        padding: 15px 35px;
+        color: #15A4F9;
+    }
+    .btn2{
+        display: flex;
+        justify-content: center;
+        padding: 15px 35px;
+        margin-top: 35px;
+    }
+}
+
+/* Cards STORE */
+
+.container{
+    display: flex;
+}
+
+.card{
+    height: 500px;
+    margin: 5px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+
+.card :hover{
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+
+.card-img-top{
+    height: 500px;
+    border-radius: 3px;
+}
+
+/* Footer */
+
+.pie-pagina{
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    background-color: #0A141D;
+}
+
+.pie-pagina .group-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1rem 0rem;
+}
+
+.pie-pagina .group-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .group-1 .box figure img{
+    width: 100px;
+}
+
+.pie-pagina .group-1 .box figure img:hover{
+    transform: scale(1.2);
+}
+
+.pie-pagina .group-1 .box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .group-1 .box p{
+    color: #888686;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .group-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    background-color: #0A141D;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .group-1 .red-social a:hover{
+    color: aqua;
+}
+
+
+.pie-pagina .group-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-pagina .group-2 small{
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+
+/* Contacto */
+.contactb{
+    
+    background: #181818;
+    color: #fff;
+
+}
+
+
+.contentc{
+    font-family: 'Quicksand', sans-serif;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.logo{
+    text-align: center;
+    font-size: 3em;
+}
+
+.logo span{
+    color: #b70e21;
+}
+
+.contact-wrapper{
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contact-wrapper > *{
+    padding: 1em;
+}
+
+.contact-form{
+    background: #222222;
+}
+
+.contact-form form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact-form form p{
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #d63031;
+}
+
+.contact-form form button{
+    background: #b70e21;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+
+.contact-info{
+    background: #000;
+}
+
+.contact-info h4,
+.contact-info ul,
+.contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.contact-info ul{
+    list-style: none;
+    padding: 1em;
+}
+
+@media (min-width: 700px) {
+    .contactb{
+        padding: 0.4rem;
+    }
+
+    .contact-wrapper{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        padding: 3em;
+    }
+}
+
+
+/* ---- Shop ----- */
+.shop{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cards{
+    width: 20rem;
+    padding: 1rem;
+    margin: 3rem;
+    transition: transform 1s ease-in;
+}
+
+.cards img{
+    width: 100%;
+}
+
+.containersho{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards div a{
+    background-color: #15A4F9;
+    padding: .3rem;
+}
+
+.cards div{
+    padding-top: .3rem;
+}
+
+.cards h6{
+    color: #7b7b7b;
+}
+
+.cards h5{
+    color: #000000;
+}
+
+.cards {
+    transition: transform .5s ease-in;
+    }
+
+            .cards:hover {
+            transform: scale(1.1);
+        }
