@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto:wght@100&@700&display=swap');
-
 .header1{
     background: url(./assets/img/background.jpg) no-repeat center;
     background-size: cover;
@@ -26,7 +24,7 @@
 .Nomevadar {
     padding: 6rem;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Abril Fatface', cursive;
 }
 
 .btn1{
