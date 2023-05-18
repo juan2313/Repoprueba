@@ -1,11 +1,16 @@
 .header1{
-    background: url(./assets/img/background3.jpg) no-repeat center;
+    background: url(./assets/img/background44.jpg) no-repeat center;
     background-size: cover;
     min-height: 100vh;
 }
 
 .header1 .navbar{
+    font-family: 'Bruno Ace', cursive;
     background-color: transparent !important;
+}
+
+.header{
+    font-family: 'Bruno Ace', cursive;
 }
 
 .navbar :hover{
