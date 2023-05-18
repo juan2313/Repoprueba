@@ -21,54 +21,78 @@
 
 /* Botones Hombre Mujer */
 
-.Nomevadar{
+.contenedor{
     display: flex;
-    justify-content: center;
+    height: 100vh;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.btn1{
-    display: inline-block;
-    background-color: transparent;
-    font-size: 18px;
-    padding: 20px 90px;
-    color: #fff;
-    text-align: center;
-    margin-right: 5px;
-    margin-top: 10rem;
+.btn{
+    position: relative;
+    font-family: 'Bruno Ace', cursive;
+    padding: 20px 50px;
     text-decoration: none;
-    border: 3px solid white;
-}
-
-.btn2{
-    display: inline-block;
-    text-decoration: none;
-    background-color: transparent;
-    font-size: 18px;
-    padding: 20px 90px;
     color: #fff;
-    text-align: center;
-    border: 3px solid white;
+    letter-spacing: 10px;
+    text-indent: 10px;
+    z-index: 2;
 }
 
-.btn1 .btn2:hover{
-    border: none;
-    color: aquamarine;
+.btn-2{
+    border: 3px solid;
+}
+
+.btn-2:hover{
+    box-shadow: 0 0 20px var(--color);
+    border-color: #fff;
+}
+
+.btn-2 span:nth-child(n){
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 3px solid;
+    transition: all 0.6s ease;
+}
+
+.btn-2 span:nth-child(1){
+    right: 10%;
+    top: -10px;
+    background-color: #fff;
+}
+
+.btn-2 span:nth-child(2){
+    left: 10%;
+    bottom: -10px;
+}
+
+.btn-2:hover span:nth-child(1){
+    right: 80%;
+    transform: rotate(90deg);
+    color: var(--color);
+    background-color: var(--color);
+    
+}
+
+.btn-2:hover span:nth-child(2){
+    left: 80%;
+    transform: rotate(90deg);
+    color: var(--color);
 }
 
 @media(max-width:800px) {
-    .btn1{
+    .btn-2{
         display: flex;
         justify-content: center;
+        margin: 1rem;
         padding: 15px 35px;
-        color: #15A4F9;
-    }
-    .btn2{
-        display: flex;
-        justify-content: center;
-        padding: 15px 35px;
-        margin-top: 35px;
+        color: #ffffff;
     }
 }
+
 
 /* Cards STORE */
 
