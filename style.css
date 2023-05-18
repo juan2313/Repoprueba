@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto:wght@100&@700&display=swap');
+
 .header1{
     background: url(./assets/img/background.jpg) no-repeat center;
     background-size: cover;
@@ -21,9 +23,10 @@
 
 /* Botones Hombre Mujer */
 
-.img-back {
+.Nomevadar {
     padding: 6rem;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .btn1{
@@ -36,6 +39,9 @@
     margin-right: 5px;
     margin-top: 10rem;
     text-decoration: none;
+    letter-spacing: 5px;
+    text-indent: 10px;
+    z-index: 2;
     border: 3px solid white;
 }
 
@@ -51,6 +57,10 @@
         margin: 1rem;
         padding: 15px 35px;
         color: #ffffff;
+    }
+    
+    .Nomevadar{
+        padding-top: 12rem;
     }
 }
 
